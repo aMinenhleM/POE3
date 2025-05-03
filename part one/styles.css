@@ -1,0 +1,101 @@
+/* Backround styling*/
+body {
+    background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1740&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+/* Menu images */
+section img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+
+section img:hover {
+    transform: scale(1.05);
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #ff6347;
+}
+
+h2 {
+    color: #ff6347;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/*Text alignment and layout*/
+header, section, footer{
+    background-color: transparent;
+    padding: 20px;
+    margin: 10px;
+    
+}
+/*Header*/
+header{
+    text-align: center;
+}
+
+nav a{
+    margin:0 10px;
+    color: #ff6347; /*tomatoe colour for headings*/
+}
+/*footer*/
+footer{
+    text-align: center;
+    font-size: 0.9em;
+}
+/* Make layout responsive for smaller screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    header, section, footer {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    section img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+}
