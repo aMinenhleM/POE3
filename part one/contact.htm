@@ -6,6 +6,7 @@
     <title>Contact us</title>
 </head>
 <body>
+    <link rel="stylesheet" href="styles.css">
     <h1>Contact us </h1>
         <p>Email: info@sizzleandserve.com</p>
         <p>Phone: 068 410 0016</p>
@@ -36,5 +37,30 @@
                 <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
                 <input type="submit" value="submit-enquiry">
                 </form>
+
+                <section class="order-section">
+                    <h2>Place Your Order</h2>
+                    <form class="order-form">
+                      <input type="text" placeholder="Full Name" required>
+                      <input type="tel" placeholder="Phone Number" required>
+                      <input type="email" placeholder="Email Address" required>
+                  
+                      <label for="order-type">Order Type:</label>
+                      <select id="order-type" required>
+                        <option value="">--Select--</option>
+                        <option value="dine-in">Dine In</option>
+                        <option value="takeaway">Takeaway</option>
+                        <option value="delivery">Delivery</option>
+                      </select>
+                  
+                      <textarea placeholder="Enter items you would like to order..." rows="4" required></textarea>
+                  
+                      <label for="time">Preferred Time:</label>
+                      <input type="time" id="time" required>
+                  
+                      <button class="button" type="submit">Place Order</button>
+                    </form>
+                  </section>
+                  
 </body>
 </html>

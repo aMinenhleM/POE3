@@ -4,6 +4,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
     margin: 0;
@@ -26,6 +27,8 @@ section {
     padding: 20px;
     margin: 20px 0;
     border-left: 5px solid #ff6347;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 30px;
 }
 
 h2 {
@@ -99,3 +102,117 @@ footer{
         padding-left: 20px;
     }
 }
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+nav a{
+    color: #ffa07a;
+    text-decoration: underline;
+
+}
+section footer{
+    background-color: rgba(255, 255, 255, 0.1
+    border-radius) 15px;
+    padding: 20px;
+    box-shadow: 0 4px 12 px rgba(0, 0, 0, 0.3);
+}
+.button{
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: backround-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+.button:hover{
+    background-color: #e5533d;
+    transform: scale(1.05);
+}
+
+.order-section {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #ffcc70;
+    margin-top: 20px;
+}
+
+.about-section, .contact-section, .team-section {
+    background-color: rgba(0, 0, 0, 0.6); /* transparent dark background */
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.contact-section p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.team-member {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.team-member img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.team-member img:hover {
+    transform: scale(1.05);
+}
+
+strong {
+    color: #ffd966;
+    font-size: 18px;
+}
+
+
