@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Events | Gourmet Gatherings</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Large Event Catering</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="events.html">Events</a>
+      <a href="enquiry.html">Enquiry</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Tailored Catering for Every Occasion</h2>
+      <p>We specialise in catering for large-scale events including weddings, corporate functions, and more. Our packages are designed to offer flexibility and elegance.</p>
+    </section>
+
+    <section>
+      <h3>Enquire Now</h3>
+      <form action="submit_form.php" method="post">
+        <label for="event-type">Event Type:</label>
+        <select id="event-type" name="event_type" required>
+          <option value="">Select</option>
+          <option value="wedding">Wedding</option>
+          <option value="corporate">Corporate</option>
+          <option value="festival">Festival</option>
+          <option value="private">Private Function</option>
+        </select><br>
+
+        <label for="date">Event Date:</label>
+        <input type="date" id="date" name="event_date" required><br>
+
+        <label for="guests">Estimated Number of Guests:</label>
+        <input type="number" id="guests" name="guest_count" required><br>
+
+        <label for="requirements">Special Requirements:</label><br>
+        <textarea id="requirements" name="special_requirements" rows="4" cols="40"></textarea><br>
+
+        <button type="submit">Submit Enquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gourmet Gatherings. All rights reserved.</p>
+  </footer>
+</body>
+</html>

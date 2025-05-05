@@ -1,6 +1,6 @@
 /* Backround styling*/
 body {
-    background-image: url(my\ gallery/background.jpg);
+    background-image: url(https://images.unsplash.com/photo-1682778418768-16081e4470a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -214,5 +214,34 @@ strong {
     color: #ffd966;
     font-size: 18px;
 }
-
+/* Events Section */
+#events {
+    background-color: #f7f7f7;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #events h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .event-item {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .event-item h3 {
+    color: #c0392b;
+    margin-bottom: 10px;
+  }
+  
+  .event-item p {
+    color: #555;
+  }
 
